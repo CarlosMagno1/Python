@@ -1,0 +1,20 @@
+print('Informe as nota do aluno:')
+print()
+
+n1=int(input('Primeira:'))
+n2=int(input('Segunda:'))
+n3=int(input('Terceira:'))
+n4=int(input('Quarta:'))
+n5=int(input('Quinta'))
+
+Média = (n1+n2+n3+n4+n5)/5
+
+if Média>=9:
+    print(f'A média é {Média}')
+    print('Parabéns pela sua nota')
+elif Média>=6:
+     print(f'A média é {Média}')
+     print('Você foi aprovado')
+else:
+    print(f'A média é {Média}')
+    print('Não atingiu a média, necessário recuperação')
